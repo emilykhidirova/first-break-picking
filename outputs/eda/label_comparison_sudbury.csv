@@ -1,0 +1,2 @@
+asset,labeled_trace_count,first_break_time_nonzero_count_on_labeled,modelled_break_time_nonzero_count_on_labeled,difference_mean,difference_std,difference_min,difference_max,absolute_difference_mean,absolute_difference_median,count_identical_zero_difference,count_nonzero_difference,fraction_identical,recommended_label_column,unlabeled_sentinels
+sudbury,200338,0,0,-169.7062863760245,71.33414961570537,-599.0,-10.0,169.7062863760245,162.0,0,200338,0.0,SPARE1,[0]

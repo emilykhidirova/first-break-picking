@@ -1,0 +1,7 @@
+STA/LTA feature stage summary
+
+    asset    rows  sta_samples  lta_samples  threshold  min_search_sample  failed_count  failed_pct  signal_window_samples
+brunswick 3733221           10          100        3.0                  5        148559    3.979379                     50
+ halfmile  993180           10          100        3.0                  5         34593    3.483054                     50
+    lalor 1211857           20          200        2.5                 10           141    0.011635                     50
+  sudbury  200338           10          100        3.5                  5          7013    3.500584                     50

@@ -1,0 +1,7 @@
+column_name,reason
+FIRST_BREAK_AMPLIT,label_adjacent_leakage_risk
+FIRST_BREAK_VELOCITY,label_adjacent_leakage_risk
+MODELLED_BREAK_TIME,baseline_only_not_model_input
+REC_PEG,identifier_not_physical_feature
+SHOT_PEG,identifier_not_physical_feature
+SHOTID,identifier_not_physical_feature

@@ -1,0 +1,263 @@
+===== BRUNSWICK =====
+Asset: brunswick
+File: Brunswick_orig_1500ms_V2.hdf5
+Total keys in TRACE_DATA/DEFAULT: 106
+All keys saved to all_keys_<asset>.txt
+data_array sample amplitude stats (1000 traces or fewer):
+  sample_trace_count: 1000
+  mean: -6.0593315538426396e-06
+  std: 1.5403684377670288
+  min: -433.316650390625
+  max: 608.892578125
+  p05: -0.07155898213386536
+  p25: -0.009191561490297318
+  p75: 0.009159148670732975
+  p95: 0.07083074748516083
+
+SPARE1 summary:
+{
+  "count_zero": 0,
+  "count_minus_one": 763319,
+  "count_valid_positive": 3733221,
+  "valid_min": 4.0,
+  "valid_max": 1358.0,
+  "valid_mean": 429.27222819115184,
+  "valid_median": 384.0,
+  "valid_std": 229.56447590993443,
+  "labeled_percentage": 83.02430313085172,
+  "count_corrupted_gt_recording_time": 0
+}
+
+Sampling summary:
+SAMP_RATE unique values (us): [2000.0]
+SAMP_NUM unique values: [751.0]
+Total recording time median (ms): 1502.0
+SAMP_RATE varies flag: False
+SAMP_NUM varies flag: False
+
+Shot/gather summary:
+Unique SHOTID count: 1541
+Traces-per-shot mean/min/max/std: 2917.9364 / 2135 / 3355 / 363.7815
+SHOTID null count: 0
+SHOTID negative count: 0
+
+Receiver duplicate summary:
+Unique receiver XY count: 6063
+Duplicate receiver XY rows: 4490477
+
+Time-order checks:
+{
+  "shotid_monotonic_non_decreasing": true,
+  "gathers_checked": 1,
+  "offset_sorted_fraction": 1.0,
+  "rec_x_sorted_fraction": 1.0,
+  "rec_y_sorted_fraction": 1.0
+}
+
+Corrupted labels:
+count SPARE1 > recording_time: 0
+percentage: 0.000000
+
+Notes:
+- Offset is not stored and is derived from scaled coordinates.
+- Incidence angle, gather index, trace index within gather are not stored directly.
+- SHT_real exists: False
+- RHT_real exists: False
+
+===== HALFMILE =====
+Asset: halfmile
+File: Halfmile3D_add_geom_sorted.hdf5
+Total keys in TRACE_DATA/DEFAULT: 104
+All keys saved to all_keys_<asset>.txt
+data_array sample amplitude stats (1000 traces or fewer):
+  sample_trace_count: 1000
+  mean: 3.06697838823311e-05
+  std: 0.2835598587989807
+  min: -49.90708923339844
+  max: 43.742218017578125
+  p05: -0.033797308802604675
+  p25: -0.004485082346946001
+  p75: 0.004431741312146187
+  p95: 0.03381790965795517
+
+SPARE1 summary:
+{
+  "count_zero": 0,
+  "count_minus_one": 106370,
+  "count_valid_positive": 993189,
+  "valid_min": 11.0,
+  "valid_max": 1482.0,
+  "valid_mean": 353.13856979890033,
+  "valid_median": 344.0,
+  "valid_std": 154.91812784105855,
+  "labeled_percentage": 90.32612165422682,
+  "count_corrupted_gt_recording_time": 0
+}
+
+Sampling summary:
+SAMP_RATE unique values (us): [2000.0]
+SAMP_NUM unique values: [751.0]
+Total recording time median (ms): 1502.0
+SAMP_RATE varies flag: False
+SAMP_NUM varies flag: False
+
+Shot/gather summary:
+Unique SHOTID count: 690
+Traces-per-shot mean/min/max/std: 1593.5638 / 1575 / 1604 / 12.4340
+SHOTID null count: 0
+SHOTID negative count: 0
+
+Receiver duplicate summary:
+Unique receiver XY count: 2378
+Duplicate receiver XY rows: 1097181
+
+Time-order checks:
+{
+  "shotid_monotonic_non_decreasing": true,
+  "gathers_checked": 1,
+  "offset_sorted_fraction": 1.0,
+  "rec_x_sorted_fraction": 1.0,
+  "rec_y_sorted_fraction": 1.0
+}
+
+Corrupted labels:
+count SPARE1 > recording_time: 0
+percentage: 0.000000
+
+Notes:
+- Offset is not stored and is derived from scaled coordinates.
+- Incidence angle, gather index, trace index within gather are not stored directly.
+- SHT_real exists: False
+- RHT_real exists: False
+
+===== LALOR =====
+Asset: lalor
+File: Lalor_raw_z_1500ms_norp_geom_v3.hdf5
+Total keys in TRACE_DATA/DEFAULT: 106
+All keys saved to all_keys_<asset>.txt
+data_array sample amplitude stats (1000 traces or fewer):
+  sample_trace_count: 1000
+  mean: -0.0002793637977447361
+  std: 2.8517141342163086
+  min: -1244.123291015625
+  max: 1328.0814208984375
+  p05: -0.13292445242404938
+  p25: -0.014305864460766315
+  p75: 0.013937156647443771
+  p95: 0.1322123110294342
+
+SPARE1 summary:
+{
+  "count_zero": 0,
+  "count_minus_one": 1213066,
+  "count_valid_positive": 1211857,
+  "valid_min": 2.0,
+  "valid_max": 881.0,
+  "valid_mean": 249.21832113855018,
+  "valid_median": 248.0,
+  "valid_std": 109.2945458903153,
+  "labeled_percentage": 49.97507137340031,
+  "count_corrupted_gt_recording_time": 0
+}
+
+Sampling summary:
+SAMP_RATE unique values (us): [1000.0]
+SAMP_NUM unique values: [1501.0]
+Total recording time median (ms): 1501.0
+SAMP_RATE varies flag: False
+SAMP_NUM varies flag: False
+
+Shot/gather summary:
+Unique SHOTID count: 907
+Traces-per-shot mean/min/max/std: 2673.5645 / 1 / 2685 / 159.1483
+SHOTID null count: 0
+SHOTID negative count: 0
+
+Receiver duplicate summary:
+Unique receiver XY count: 2685
+Duplicate receiver XY rows: 2422238
+
+Time-order checks:
+{
+  "shotid_monotonic_non_decreasing": true,
+  "gathers_checked": 1,
+  "offset_sorted_fraction": 1.0,
+  "rec_x_sorted_fraction": 1.0,
+  "rec_y_sorted_fraction": 1.0
+}
+
+Corrupted labels:
+count SPARE1 > recording_time: 0
+percentage: 0.000000
+
+Notes:
+- Offset is not stored and is derived from scaled coordinates.
+- Incidence angle, gather index, trace index within gather are not stored directly.
+- SHT_real exists: False
+- RHT_real exists: False
+
+===== SUDBURY =====
+Asset: sudbury
+File: preprocessed_Sudbury3D.hdf
+Total keys in TRACE_DATA/DEFAULT: 106
+All keys saved to all_keys_<asset>.txt
+data_array sample amplitude stats (1000 traces or fewer):
+  sample_trace_count: 1000
+  mean: 2.2767955670133233e-05
+  std: 0.4490988552570343
+  min: -116.43171691894531
+  max: 112.89140319824219
+  p05: -0.04770548641681671
+  p25: -0.006809983402490616
+  p75: 0.006830055266618729
+  p95: 0.047873590141534805
+
+SPARE1 summary:
+{
+  "count_zero": 1609882,
+  "count_minus_one": 0,
+  "count_valid_positive": 200338,
+  "valid_min": 10.0,
+  "valid_max": 599.0,
+  "valid_mean": 169.7062863760245,
+  "valid_median": 162.0,
+  "valid_std": 71.33414961570537,
+  "labeled_percentage": 11.067052623438036,
+  "count_corrupted_gt_recording_time": 0
+}
+
+Sampling summary:
+SAMP_RATE unique values (us): [2000.0]
+SAMP_NUM unique values: [1001.0]
+Total recording time median (ms): 2002.0
+SAMP_RATE varies flag: False
+SAMP_NUM varies flag: False
+
+Shot/gather summary:
+Unique SHOTID count: 1016
+Traces-per-shot mean/min/max/std: 1781.7126 / 670 / 1983 / 223.9466
+SHOTID null count: 0
+SHOTID negative count: 0
+
+Receiver duplicate summary:
+Unique receiver XY count: 1987
+Duplicate receiver XY rows: 1808233
+
+Time-order checks:
+{
+  "shotid_monotonic_non_decreasing": true,
+  "gathers_checked": 1,
+  "offset_sorted_fraction": 1.0,
+  "rec_x_sorted_fraction": 1.0,
+  "rec_y_sorted_fraction": 1.0
+}
+
+Corrupted labels:
+count SPARE1 > recording_time: 0
+percentage: 0.000000
+
+Notes:
+- Offset is not stored and is derived from scaled coordinates.
+- Incidence angle, gather index, trace index within gather are not stored directly.
+- SHT_real exists: False
+- RHT_real exists: False

@@ -1,0 +1,59 @@
+[06_train] Log file: C:\Users\EmiliyaXidirova\Desktop\project-NEW\outputs\training_logs\training_live.log
+[06_train] Loaded 10 model feature columns
+[06_train] Running experiment=b
+[06_train] Preparing split=train
+[06_train] Loaded shot split file train_shot_ids_brunswick.txt: 1,310 shot IDs
+[06_train] Reading asset=brunswick
+[06_train] Asset=brunswick merged rows=3,174,731
+[06_train] Loaded shot split file train_shot_ids_halfmile.txt: 586 shot IDs
+[06_train] Reading asset=halfmile
+[06_train] Asset=halfmile merged rows=844,507
+[06_train] Loaded shot split file train_shot_ids_lalor_expB.txt: 724 shot IDs
+[06_train] Reading asset=lalor
+[06_train] Asset=lalor merged rows=978,491
+[06_train] Split=train rows before sampling: 4,997,729
+[06_train] Sampling from 4,997,729 to 800,000 rows (seed=42)
+[06_train] Split=train rows final: 800,000
+[06_train] Preparing split=val_indistribution
+[06_train] Loaded shot split file val_shot_ids_brunswick.txt: 231 shot IDs
+[06_train] Reading asset=brunswick
+[06_train] Asset=brunswick merged rows=558,490
+[06_train] Loaded shot split file val_shot_ids_halfmile.txt: 104 shot IDs
+[06_train] Reading asset=halfmile
+[06_train] Asset=halfmile merged rows=148,673
+[06_train] Split=val_indistribution rows before sampling: 707,163
+[06_train] Sampling from 707,163 to 400,000 rows (seed=42)
+[06_train] Split=val_indistribution rows final: 400,000
+[06_train] Preparing split=test
+[06_train] Loaded shot split file val_shot_ids_lalor_expB.txt: 181 shot IDs
+[06_train] Reading asset=lalor
+[06_train] Asset=lalor merged rows=233,366
+[06_train] Reading asset=sudbury
+[06_train] Asset=sudbury merged rows=200,338
+[06_train] Split=test rows before sampling: 433,704
+[06_train] Sampling from 433,704 to 400,000 rows (seed=43)
+[06_train] Split=test rows final: 400,000
+[06_train] Split=train numeric cleanup: 800,000 -> 800,000
+[06_train] Split=val_indistribution numeric cleanup: 400,000 -> 400,000
+[06_train] Split=test numeric cleanup: 400,000 -> 400,000
+[06_train] Preparing split=val_lalor
+[06_train] Loaded shot split file val_shot_ids_lalor_expB.txt: 181 shot IDs
+[06_train] Reading asset=lalor
+[06_train] Asset=lalor merged rows=233,366
+[06_train] Split=val_lalor rows before sampling: 233,366
+[06_train] Split=val_lalor rows final: 233,366
+[06_train] Split=val_lalor numeric cleanup: 233,366 -> 233,366
+[06_train] Train matrix shape=(800000, 10), Val matrix shape=(400000, 10)
+[06_train] LightGBM rounds: max=100000, early_stopping=50
+[06_train] Best iteration: 14627
+[06_train] Saved model + training metadata + feature importance
+[06_train] Predicting split=train rows=800,000
+[06_train] Saved predictions_train_experimentb.csv
+[06_train] Predicting split=val rows=400,000
+[06_train] Saved predictions_val_experimentb.csv
+[06_train] Predicting split=test rows=400,000
+[06_train] Loaded shot split file val_shot_ids_lalor_expB.txt: 181 shot IDs
+[06_train] Saved predictions_test_experimentb.csv
+[06_train] Training completed
+[06_train] Model: C:\Users\EmiliyaXidirova\Desktop\project-NEW\outputs\models\lightgbm_first_break_experimentb.txt
+[06_train] Train rows: 800,000, Val rows: train=800,000, val_indistribution=400,000, val_lalor=233,366, Test rows: 400,000

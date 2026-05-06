@@ -1,0 +1,119 @@
+{
+  "working_label_column": "SPARE1",
+  "primary_offset_column_by_asset": {
+    "brunswick": "derived_from_coordinates",
+    "halfmile": "derived_from_coordinates",
+    "lalor": "derived_from_coordinates",
+    "sudbury": "derived_from_coordinates"
+  },
+  "feature_columns": [
+    "asset",
+    "trace_index",
+    "shot_id",
+    "gather_sequence_index",
+    "trace_index_within_gather",
+    "number_of_traces_in_gather",
+    "offset",
+    "offset_gather_zscore",
+    "offset_rank",
+    "trace_position",
+    "source_ht_scaled",
+    "rec_ht_scaled",
+    "elevation_diff",
+    "slant_distance",
+    "pre_break_noise_energy",
+    "zero_crossing_rate",
+    "max_abs_amplitude",
+    "is_dead_trace"
+  ],
+  "pre_break_noise_window_samples": 5,
+  "zero_crossing_window_fraction": 0.5,
+  "trace_harmonization_strategy": "downsample_lalor_to_2ms_then_pad_or_crop_at_runtime",
+  "notes": [
+    "Offset is derived from scaled source/receiver coordinates for all assets.",
+    "Static fields and coordinate-normalized source location features are excluded from model inputs.",
+    "FIRST_BREAK_AMPLIT, FIRST_BREAK_VELOCITY, and MODELLED_BREAK_TIME are excluded from model inputs due to leakage or baseline-only use."
+  ],
+  "stalta_diagnostic_proxy_columns": [
+    "noise_energy_first_20samples",
+    "signal_energy_after_stalta",
+    "amplitude_at_stalta_pick",
+    "dominant_frequency_proxy"
+  ],
+  "stalta_feature_columns": [
+    "stalta_pick_ms",
+    "stalta_peak_ratio",
+    "stalta_ratio_at_pick",
+    "stalta_pick_sample",
+    "stalta_failed",
+    "velocity_estimate_stalta",
+    "slant_time_correction",
+    "gather_median_pick_ms",
+    "pick_deviation_from_gather_median",
+    "gather_pick_std",
+    "hyperbolic_residual"
+  ],
+  "stalta_config": {
+    "sta_window_ms": 20.0,
+    "lta_window_ms": 200.0,
+    "threshold_by_asset": {
+      "brunswick": 3.0,
+      "halfmile": 3.0,
+      "lalor": 2.5,
+      "sudbury": 3.5
+    },
+    "min_search_sample_by_asset": {
+      "brunswick": 5,
+      "halfmile": 5,
+      "lalor": 10,
+      "sudbury": 5
+    },
+    "signal_window_samples": 50
+  },
+  "coordinate_normalization_stats_training_shots": {
+    "source_x_mean": 413638.2167721519,
+    "source_x_std": 192670.70545003237,
+    "source_y_mean": 5252521.314345991,
+    "source_y_std": 5511.22845787169,
+    "computed_from_training_shots_only": true,
+    "training_assets_used": [
+      "brunswick",
+      "halfmile"
+    ]
+  },
+  "static_leakage_check_source": "not_applicable_static_features_removed",
+  "static_leakage_check_results": [],
+  "final_model_input_feature_columns": [
+    "offset_rank",
+    "elevation_diff",
+    "slant_distance",
+    "pre_break_noise_energy",
+    "zero_crossing_rate",
+    "max_abs_amplitude",
+    "stalta_pick_ms",
+    "gather_median_pick_ms",
+    "pick_deviation_from_gather_median",
+    "hyperbolic_residual"
+  ],
+  "final_confirmed_feature_columns": [
+    "offset_rank",
+    "elevation_diff",
+    "slant_distance",
+    "pre_break_noise_energy",
+    "zero_crossing_rate",
+    "max_abs_amplitude",
+    "stalta_pick_ms",
+    "gather_median_pick_ms",
+    "pick_deviation_from_gather_median",
+    "hyperbolic_residual"
+  ],
+  "auxiliary_flag_columns": [],
+  "dropped_after_step5": [
+    "source_x_normalized",
+    "source_y_normalized",
+    "trace_position",
+    "total_static",
+    "ref_total_static",
+    "stalta_pick_sample"
+  ]
+}

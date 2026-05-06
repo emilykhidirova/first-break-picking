@@ -1,0 +1,118 @@
+===== BRUNSWICK =====
+Asset: brunswick
+File: Brunswick_orig_1500ms_V2.hdf5
+Total traces: 4496540
+Valid labeled kept: 3733221
+Inference unlabeled kept: 763319
+Removed (any reason): 763319
+Small gather threshold: 5
+Small gather count: 0
+Small gather trace count: 0
+Working label column: SPARE1
+Primary offset column: derived_from_coordinates
+Normalization method for runtime dataset building: per_trace
+Trace harmonization strategy: downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+COORD_SCALE values: [-10.0]
+COORD_SCALE varies flag: False
+HT_SCALE values: [-10.0]
+HT_SCALE varies flag: False
+
+Removed counts by reason:
+  spare1_zero: 0
+  spare1_minus_one: 763319
+  spare1_gt_recording_time: 0
+  dead_trace: 2
+  missing_source_geometry: 0
+  missing_receiver_geometry: 0
+  first_break_sample_out_of_bounds: 0
+  removed_any_reason: 763319
+
+
+===== HALFMILE =====
+Asset: halfmile
+File: Halfmile3D_add_geom_sorted.hdf5
+Total traces: 1099559
+Valid labeled kept: 993180
+Inference unlabeled kept: 106370
+Removed (any reason): 106379
+Small gather threshold: 5
+Small gather count: 0
+Small gather trace count: 0
+Working label column: SPARE1
+Primary offset column: derived_from_coordinates
+Normalization method for runtime dataset building: per_trace
+Trace harmonization strategy: downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+COORD_SCALE values: [1.0]
+COORD_SCALE varies flag: False
+HT_SCALE values: [-10000.0]
+HT_SCALE varies flag: False
+
+Removed counts by reason:
+  spare1_zero: 0
+  spare1_minus_one: 106370
+  spare1_gt_recording_time: 0
+  dead_trace: 15109
+  missing_source_geometry: 0
+  missing_receiver_geometry: 0
+  first_break_sample_out_of_bounds: 0
+  removed_any_reason: 106379
+
+
+===== LALOR =====
+Asset: lalor
+File: Lalor_raw_z_1500ms_norp_geom_v3.hdf5
+Total traces: 2424923
+Valid labeled kept: 1211857
+Inference unlabeled kept: 1213066
+Removed (any reason): 1213066
+Small gather threshold: 10
+Small gather count: 0
+Small gather trace count: 0
+Working label column: SPARE1
+Primary offset column: derived_from_coordinates
+Normalization method for runtime dataset building: per_trace
+Trace harmonization strategy: downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+COORD_SCALE values: [-10.0]
+COORD_SCALE varies flag: False
+HT_SCALE values: [-10.0]
+HT_SCALE varies flag: False
+
+Removed counts by reason:
+  spare1_zero: 0
+  spare1_minus_one: 1213066
+  spare1_gt_recording_time: 0
+  dead_trace: 381
+  missing_source_geometry: 0
+  missing_receiver_geometry: 0
+  first_break_sample_out_of_bounds: 0
+  removed_any_reason: 1213066
+
+
+===== SUDBURY =====
+Asset: sudbury
+File: preprocessed_Sudbury3D.hdf
+Total traces: 1810220
+Valid labeled kept: 200338
+Inference unlabeled kept: 1609882
+Removed (any reason): 1609882
+Small gather threshold: 5
+Small gather count: 0
+Small gather trace count: 0
+Working label column: SPARE1
+Primary offset column: derived_from_coordinates
+Normalization method for runtime dataset building: per_trace
+Trace harmonization strategy: downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+COORD_SCALE values: [100.0]
+COORD_SCALE varies flag: False
+HT_SCALE values: [10.0]
+HT_SCALE varies flag: False
+
+Removed counts by reason:
+  spare1_zero: 1609882
+  spare1_minus_one: 0
+  spare1_gt_recording_time: 0
+  dead_trace: 0
+  missing_source_geometry: 0
+  missing_receiver_geometry: 0
+  first_break_sample_out_of_bounds: 0
+  removed_any_reason: 1609882

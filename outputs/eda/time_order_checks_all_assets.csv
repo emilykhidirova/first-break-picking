@@ -1,0 +1,5 @@
+asset,shotid_monotonic_non_decreasing,gathers_checked,offset_sorted_fraction,rec_x_sorted_fraction,rec_y_sorted_fraction
+brunswick,True,1,1.0,1.0,1.0
+halfmile,True,1,1.0,1.0,1.0
+lalor,True,1,1.0,1.0,1.0
+sudbury,True,1,1.0,1.0,1.0

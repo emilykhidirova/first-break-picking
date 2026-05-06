@@ -1,0 +1,5 @@
+asset,total_traces,valid_labeled_kept,inference_unlabeled_kept,valid_gather_count,small_gather_count,small_gather_trace_count,coord_scale_unique_count,coord_scale_values,coord_scale_varies_flag,ht_scale_unique_count,ht_scale_values,ht_scale_varies_flag,min_gather_traces,working_label_column,primary_offset_column,normalization_method,trace_harmonization_strategy
+brunswick,4496540,3733221,763319,1541,0,0,1,[-10.0],False,1,[-10.0],False,5,SPARE1,derived_from_coordinates,per_trace,downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+halfmile,1099559,993180,106370,690,0,0,1,[1.0],False,1,[-10000.0],False,5,SPARE1,derived_from_coordinates,per_trace,downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+lalor,2424923,1211857,1213066,905,0,0,1,[-10.0],False,1,[-10.0],False,10,SPARE1,derived_from_coordinates,per_trace,downsample_lalor_to_2ms_then_pad_or_crop_at_runtime
+sudbury,1810220,200338,1609882,715,0,0,1,[100.0],False,1,[10.0],False,5,SPARE1,derived_from_coordinates,per_trace,downsample_lalor_to_2ms_then_pad_or_crop_at_runtime

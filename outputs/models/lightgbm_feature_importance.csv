@@ -1,0 +1,11 @@
+feature,importance_gain,importance_split
+slant_distance,17826726.569115758,66642
+stalta_pick_ms,5309776.825884722,61369
+offset_rank,3703725.92261675,53973
+hyperbolic_residual,1516587.2734293789,50330
+gather_median_pick_ms,982865.8972334266,61354
+elevation_diff,580905.7512606382,53361
+max_abs_amplitude,529037.9379392266,44504
+pick_deviation_from_gather_median,521025.25388009846,36282
+pre_break_noise_energy,467198.84666341543,42683
+zero_crossing_rate,245941.75191301852,37463

@@ -1,0 +1,5 @@
+asset,feature_rows_written,parquet_written,working_label_column,working_offset_column
+brunswick,3733221,False,SPARE1,derived_from_coordinates
+halfmile,993180,False,SPARE1,derived_from_coordinates
+lalor,1211857,False,SPARE1,derived_from_coordinates
+sudbury,200338,False,SPARE1,derived_from_coordinates

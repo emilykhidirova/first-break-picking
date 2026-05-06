@@ -1,0 +1,2 @@
+asset,experiment,train_fraction,total_shots,train_shots,val_shots,train_traces,val_traces,random_seed
+lalor,B,0.8,905,724,181,978491,233366,42

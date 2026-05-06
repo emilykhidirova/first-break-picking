@@ -1,0 +1,56 @@
+{
+  "working_label_column": "SPARE1",
+  "normalization_method": "per_trace",
+  "primary_offset_column_by_asset": {
+    "brunswick": "derived_from_coordinates",
+    "halfmile": "derived_from_coordinates",
+    "lalor": "derived_from_coordinates",
+    "sudbury": "derived_from_coordinates"
+  },
+  "unlabeled_sentinels_by_asset": {
+    "brunswick": [
+      -1
+    ],
+    "halfmile": [
+      -1
+    ],
+    "lalor": [
+      -1
+    ],
+    "sudbury": [
+      0
+    ]
+  },
+  "min_gather_traces_by_asset": {
+    "brunswick": 5,
+    "halfmile": 5,
+    "lalor": 10,
+    "sudbury": 5
+  },
+  "trace_harmonization_strategy": "downsample_lalor_to_2ms_then_pad_or_crop_at_runtime",
+  "trace_harmonization_target_samp_rate_us": 2000,
+  "trace_harmonization_target_samp_num": 751,
+  "asset_sampling_specs": {
+    "brunswick": {
+      "samp_rate_us": 2000,
+      "samp_num": 751,
+      "recording_time_ms": 1502
+    },
+    "halfmile": {
+      "samp_rate_us": 2000,
+      "samp_num": 751,
+      "recording_time_ms": 1502
+    },
+    "lalor": {
+      "samp_rate_us": 1000,
+      "samp_num": 1501,
+      "recording_time_ms": 1501
+    },
+    "sudbury": {
+      "samp_rate_us": 2000,
+      "samp_num": 1001,
+      "recording_time_ms": 2002
+    }
+  },
+  "description": "Normalize at runtime during dataset building. per_trace divides each trace by its own absolute max; per_gather divides all traces in a gather by the gather absolute max."
+}

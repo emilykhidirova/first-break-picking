@@ -1,0 +1,24 @@
+[07_evaluate] Log file: C:\Users\EmiliyaXidirova\Desktop\project-NEW\outputs\training_logs\test_live.log
+[07_evaluate] Using artifact suffix: _experimentb
+[07_evaluate] Loading split=train from predictions_train_experimentb_smoothed.csv
+[07_evaluate] Split=train rows: 800,000 -> 800,000 after finite label filtering
+[07_evaluate] Loading split=val from predictions_val_experimentb_smoothed.csv
+[07_evaluate] Split=val rows: 400,000 -> 400,000 after finite label filtering
+[07_evaluate] Loading split=test from predictions_test_experimentb_smoothed.csv
+[07_evaluate] Split=test rows: 2,261,144 -> 2,261,144 after finite label filtering
+[07_evaluate] Split=train labeled metric rows: 800,000 -> 800,000
+[07_evaluate] Split=test labeled metric rows: 400,000 -> 400,000
+[07_evaluate] Global classification threshold (median train label): 340.000 ms
+[07_evaluate] Evaluating test asset=lalor rows=215,257 (global threshold)
+[07_evaluate] Evaluating test asset=sudbury rows=184,743 (global threshold)
+[07_evaluate] Evaluating test asset=lalor rows=215,257 (asset threshold=244.000 ms)
+[07_evaluate] Evaluating test asset=sudbury rows=184,743 (asset threshold=162.000 ms)
+[07_evaluate] Saved metrics CSV: metrics_train_global_threshold_experimentb.csv
+[07_evaluate] Saved metrics CSV: metrics_test_global_threshold_experimentb.csv
+[07_evaluate] Saved metrics CSV: metrics_test_asset_threshold_experimentb.csv
+[07_evaluate] Saved holdout report: holdout_report_by_asset_experimentb.csv
+[07_evaluate] Saved ROC plot: roc_curve_train_experimentb.png
+[07_evaluate] Saved ROC plot: roc_curve_test_experimentb.png
+[07_evaluate] Saved markdown summary: evaluation_summary_experimentb.md
+[07_evaluate] Saved evaluation config: evaluation_config_experimentb.json
+[07_evaluate] Done. Outputs in: C:\Users\EmiliyaXidirova\Desktop\project-NEW\outputs\evaluation

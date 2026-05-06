@@ -1,0 +1,26 @@
+{
+  "brunswick": {
+    "file_name": "Brunswick_orig_1500ms_V2.hdf5",
+    "role": "train",
+    "total_traces": 4496540,
+    "labeled_pct_phase45_report": 83.02
+  },
+  "halfmile": {
+    "file_name": "Halfmile3D_add_geom_sorted.hdf5",
+    "role": "train",
+    "total_traces": 1099559,
+    "labeled_pct_phase45_report": 90.33
+  },
+  "lalor": {
+    "file_name": "Lalor_raw_z_1500ms_norp_geom_v3.hdf5",
+    "role": "validate",
+    "total_traces": 2424923,
+    "labeled_pct_phase45_report": 49.98
+  },
+  "sudbury": {
+    "file_name": "preprocessed_Sudbury3D.hdf",
+    "role": "stress_test",
+    "total_traces": 1810220,
+    "labeled_pct_phase45_report": 11.07
+  }
+}

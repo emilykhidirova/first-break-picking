@@ -1,0 +1,9 @@
+asset,role,num_shots,num_labeled_traces,num_total_traces,notes
+brunswick_train,training,1310,3174731,3817692,85% of brunswick shots
+brunswick_val,internal_val,231,558490,678848,15% of brunswick shots
+halfmile_train,training,586,844507,933609,85% of halfmile shots
+halfmile_val,internal_val,104,148673,165941,15% of halfmile shots
+lalor,external_val,905,1211857,2424923,fully held out
+sudbury,stress_test,715,200338,1810220,"fully held out, unlabeled sentinel=0"
+lalor_expB_train,domain_adapt_train,724,978491,1940293,80% Lalor shots for Experiment B
+lalor_expB_val,domain_adapt_holdout,181,233366,484628,20% Lalor shots holdout for Experiment B

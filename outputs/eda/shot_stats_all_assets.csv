@@ -1,0 +1,5 @@
+asset,unique_shot_count,traces_per_shot_mean,traces_per_shot_min,traces_per_shot_max,traces_per_shot_std,shotid_null_count,shotid_negative_count,shot_peg_unique_count,rec_peg_unique_count
+brunswick,1541,2917.9364049318624,2135,3355,363.7814937209153,0,0,1541,6063
+halfmile,690,1593.563768115942,1575,1604,12.43395873233752,0,0,690,2378
+lalor,907,2673.564498346196,1,2685,159.14826058935336,0,0,907,2685
+sudbury,1016,1781.7125984251968,670,1983,223.94664230513487,0,0,1,1989

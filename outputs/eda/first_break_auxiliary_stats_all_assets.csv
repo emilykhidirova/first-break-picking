@@ -1,0 +1,7 @@
+field_name,count,min,max,mean,median,std,asset,use_as_training_feature
+FIRST_BREAK_AMPLIT,3733221,0.0,0.0,0.0,0.0,0.0,brunswick,no_label_adjacent
+FIRST_BREAK_VELOCITY,3733221,0.0,0.0,0.0,0.0,0.0,brunswick,no_label_adjacent
+FIRST_BREAK_AMPLIT,1211857,0.0,0.0,0.0,0.0,0.0,lalor,no_label_adjacent
+FIRST_BREAK_VELOCITY,1211857,0.0,0.0,0.0,0.0,0.0,lalor,no_label_adjacent
+FIRST_BREAK_AMPLIT,200338,0.0,0.0,0.0,0.0,0.0,sudbury,no_label_adjacent
+FIRST_BREAK_VELOCITY,200338,0.0,0.0,0.0,0.0,0.0,sudbury,no_label_adjacent

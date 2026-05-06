@@ -1,0 +1,5 @@
+asset,labeled_trace_count,first_break_time_nonzero_count_on_labeled,modelled_break_time_nonzero_count_on_labeled,difference_mean,difference_std,difference_min,difference_max,absolute_difference_mean,absolute_difference_median,count_identical_zero_difference,count_nonzero_difference,fraction_identical,recommended_label_column,unlabeled_sentinels
+brunswick,3733221,0,0,-429.27222819115184,229.56447590993443,-1358.0,-4.0,429.27222819115184,384.0,0,3733221,0.0,SPARE1,[-1]
+halfmile,993189,0,0,-353.13856979890033,154.91812784105855,-1482.0,-11.0,353.13856979890033,344.0,0,993189,0.0,SPARE1,[-1]
+lalor,1211857,0,0,-249.21832113855015,109.2945458903153,-881.0,-2.0,249.21832113855015,248.0,0,1211857,0.0,SPARE1,[-1]
+sudbury,200338,0,0,-169.7062863760245,71.33414961570537,-599.0,-10.0,169.7062863760245,162.0,0,200338,0.0,SPARE1,[0]

@@ -1,0 +1,11 @@
+{
+  "experiment_tag": "experimentb",
+  "classification_threshold_ms_global": 340.0,
+  "evaluation_tolerance_ms": 10.0,
+  "notes": [
+    "Binary classification is defined as early-arrival prediction: label_ms <= threshold_ms.",
+    "AUC/ROC is computed from score = -predicted_ms.",
+    "Per-asset threshold metrics are written to metrics_test_asset_threshold_<tag>.csv.",
+    "Rows with prediction_status != predicted_labeled are excluded from metrics."
+  ]
+}

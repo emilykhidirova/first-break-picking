@@ -1,0 +1,97 @@
+===== BRUNSWICK =====
+Asset: brunswick
+File: Brunswick_orig_1500ms_V2.hdf5
+Unlabeled sentinels: [-1]
+
+SPARE1 vs FIRST_BREAK_TIME:
+    asset  labeled_trace_count  first_break_time_nonzero_count_on_labeled  modelled_break_time_nonzero_count_on_labeled  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_identical_zero_difference  count_nonzero_difference  fraction_identical recommended_label_column unlabeled_sentinels
+brunswick              3733221                                          0                                             0      -429.272228      229.564476         -1358.0            -4.0                429.272228                       384.0                                0                   3733221                 0.0                   SPARE1                [-1]
+
+MODELLED_BREAK_TIME baseline:
+    asset target_label_column  is_recommended_target  trace_count     mae_ms    rmse_ms  median_absolute_error_ms  pct_within_5ms  pct_within_10ms  pct_within_20ms  pct_within_50ms
+brunswick    FIRST_BREAK_TIME                  False      3733221   0.000000   0.000000                       0.0      100.000000       100.000000       100.000000       100.000000
+brunswick              SPARE1                   True      3733221 429.272228 486.800247                     384.0        0.000027         0.000188         0.021885         0.576446
+
+Offset cross-check:
+    asset stored_offset_column derived_offset_reference  trace_count  stored_nonzero_count  stored_nonzero_pct  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_abs_diff_gt_1m  pct_abs_diff_gt_1m
+brunswick           OFFSET_FLT    derived_offset_scaled      4496540                     0                 0.0     -2369.371602     1316.871150    -7188.224050       -2.000000               2369.371602                 2123.181810               4496540          100.000000
+brunswick               OFFSET       derived_offset_raw      4496540               4496540               100.0        -0.209024        5.036190      -18.774828       18.750122                  4.063489                    3.505690               3793543           84.365823
+brunswick               OFFSET    derived_offset_scaled      4496540               4496540               100.0     21324.135398    11851.712026       18.000000    64701.775950              21324.135398                19107.168047               4496540          100.000000
+
+Auxiliary first-break fields:
+          field_name   count  min  max  mean  median  std     asset use_as_training_feature
+  FIRST_BREAK_AMPLIT 3733221  0.0  0.0   0.0     0.0  0.0 brunswick       no_label_adjacent
+FIRST_BREAK_VELOCITY 3733221  0.0  0.0   0.0     0.0  0.0 brunswick       no_label_adjacent
+
+
+===== HALFMILE =====
+Asset: halfmile
+File: Halfmile3D_add_geom_sorted.hdf5
+Unlabeled sentinels: [-1]
+
+SPARE1 vs FIRST_BREAK_TIME:
+   asset  labeled_trace_count  first_break_time_nonzero_count_on_labeled  modelled_break_time_nonzero_count_on_labeled  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_identical_zero_difference  count_nonzero_difference  fraction_identical recommended_label_column unlabeled_sentinels
+halfmile               993189                                          0                                             0       -353.13857      154.918128         -1482.0           -11.0                 353.13857                       344.0                                0                    993189                 0.0                   SPARE1                [-1]
+
+MODELLED_BREAK_TIME baseline:
+   asset target_label_column  is_recommended_target  trace_count    mae_ms    rmse_ms  median_absolute_error_ms  pct_within_5ms  pct_within_10ms  pct_within_20ms  pct_within_50ms
+halfmile    FIRST_BREAK_TIME                  False       993189   0.00000   0.000000                       0.0           100.0            100.0       100.000000       100.000000
+halfmile              SPARE1                   True       993189 353.13857 385.624755                     344.0             0.0              0.0         0.004732         0.377169
+
+Offset cross-check:
+   asset stored_offset_column derived_offset_reference  trace_count  stored_nonzero_count  stored_nonzero_pct  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_abs_diff_gt_1m  pct_abs_diff_gt_1m
+halfmile           OFFSET_FLT    derived_offset_scaled      1099559                     0            0.000000     -1769.203469      859.101168    -4865.900328        0.000000               1769.203469                 1713.466953               1099555           99.999636
+halfmile               OFFSET       derived_offset_raw      1099559               1099558           99.999909         0.004320        0.478411       -1.502797        1.503425                  0.387041                    0.335495                 32537            2.959095
+halfmile               OFFSET    derived_offset_scaled      1099559               1099558           99.999909         0.004320        0.478411       -1.502797        1.503425                  0.387041                    0.335495                 32537            2.959095
+
+
+===== LALOR =====
+Asset: lalor
+File: Lalor_raw_z_1500ms_norp_geom_v3.hdf5
+Unlabeled sentinels: [-1]
+
+SPARE1 vs FIRST_BREAK_TIME:
+asset  labeled_trace_count  first_break_time_nonzero_count_on_labeled  modelled_break_time_nonzero_count_on_labeled  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_identical_zero_difference  count_nonzero_difference  fraction_identical recommended_label_column unlabeled_sentinels
+lalor              1211857                                          0                                             0      -249.218321      109.294546          -881.0            -2.0                249.218321                       248.0                                0                   1211857                 0.0                   SPARE1                [-1]
+
+MODELLED_BREAK_TIME baseline:
+asset target_label_column  is_recommended_target  trace_count     mae_ms    rmse_ms  median_absolute_error_ms  pct_within_5ms  pct_within_10ms  pct_within_20ms  pct_within_50ms
+lalor    FIRST_BREAK_TIME                  False      1211857   0.000000   0.000000                       0.0       100.00000       100.000000       100.000000       100.000000
+lalor              SPARE1                   True      1211857 249.218321 272.130593                     248.0         0.00033         0.024425         0.231298         2.129129
+
+Offset cross-check:
+asset stored_offset_column derived_offset_reference  trace_count  stored_nonzero_count  stored_nonzero_pct  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_abs_diff_gt_1m  pct_abs_diff_gt_1m
+lalor           OFFSET_FLT    derived_offset_scaled      2424923                     0                 0.0     -2138.193084     1024.242356    -5782.660594       -0.100000               2138.193084                 2091.674709               2424921           99.999918
+lalor               OFFSET       derived_offset_raw      2424923               2424923               100.0        -0.000358        0.288030       -0.507758        0.509729                  0.249099                    0.248412                     0            0.000000
+lalor               OFFSET    derived_offset_scaled      2424923               2424923               100.0     19243.737398     9218.181871        0.900000    52044.339406              19243.737398                18825.277408               2424922           99.999959
+
+Auxiliary first-break fields:
+          field_name   count  min  max  mean  median  std asset use_as_training_feature
+  FIRST_BREAK_AMPLIT 1211857  0.0  0.0   0.0     0.0  0.0 lalor       no_label_adjacent
+FIRST_BREAK_VELOCITY 1211857  0.0  0.0   0.0     0.0  0.0 lalor       no_label_adjacent
+
+
+===== SUDBURY =====
+Asset: sudbury
+File: preprocessed_Sudbury3D.hdf
+Unlabeled sentinels: [0]
+
+SPARE1 vs FIRST_BREAK_TIME:
+  asset  labeled_trace_count  first_break_time_nonzero_count_on_labeled  modelled_break_time_nonzero_count_on_labeled  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_identical_zero_difference  count_nonzero_difference  fraction_identical recommended_label_column unlabeled_sentinels
+sudbury               200338                                          0                                             0      -169.706286        71.33415          -599.0           -10.0                169.706286                       162.0                                0                    200338                 0.0                   SPARE1                 [0]
+
+MODELLED_BREAK_TIME baseline:
+  asset target_label_column  is_recommended_target  trace_count     mae_ms    rmse_ms  median_absolute_error_ms  pct_within_5ms  pct_within_10ms  pct_within_20ms  pct_within_50ms
+sudbury    FIRST_BREAK_TIME                  False       200338   0.000000   0.000000                       0.0           100.0       100.000000       100.000000       100.000000
+sudbury              SPARE1                   True       200338 169.706286 184.088998                     162.0             0.0         0.000998         0.027454         2.002616
+
+Offset cross-check:
+  asset stored_offset_column derived_offset_reference  trace_count  stored_nonzero_count  stored_nonzero_pct  difference_mean  difference_std  difference_min  difference_max  absolute_difference_mean  absolute_difference_median  count_abs_diff_gt_1m  pct_abs_diff_gt_1m
+sudbury           OFFSET_FLT    derived_offset_scaled      1810220                     0                 0.0     -2417.503416     1211.335859    -7155.676954       -3.162278               2417.503416                 2311.351683               1810220           100.00000
+sudbury               OFFSET       derived_offset_raw      1810220               1810220               100.0   -239333.339201   119922.250355  -708412.695443     -313.227766             239333.339201               228824.168291               1810220           100.00000
+sudbury               OFFSET    derived_offset_scaled      1810220               1810220               100.0        -0.501059        0.322094       -1.405289        0.405813                  0.510987                    0.502411                 96982             5.35747
+
+Auxiliary first-break fields:
+          field_name  count  min  max  mean  median  std   asset use_as_training_feature
+  FIRST_BREAK_AMPLIT 200338  0.0  0.0   0.0     0.0  0.0 sudbury       no_label_adjacent
+FIRST_BREAK_VELOCITY 200338  0.0  0.0   0.0     0.0  0.0 sudbury       no_label_adjacent

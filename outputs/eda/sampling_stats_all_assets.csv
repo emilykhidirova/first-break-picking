@@ -1,0 +1,5 @@
+asset,samp_rate_unique_count,samp_rate_unique_values_us,samp_num_unique_count,samp_num_unique_values,total_recording_time_ms_median,recording_time_min_ms,recording_time_max_ms,samp_rate_varies_flag,samp_num_varies_flag
+brunswick,1,[2000.0],1,[751.0],1502.0,1502.0,1502.0,False,False
+halfmile,1,[2000.0],1,[751.0],1502.0,1502.0,1502.0,False,False
+lalor,1,[1000.0],1,[1501.0],1501.0,1501.0,1501.0,False,False
+sudbury,1,[2000.0],1,[1001.0],2002.0,2002.0,2002.0,False,False

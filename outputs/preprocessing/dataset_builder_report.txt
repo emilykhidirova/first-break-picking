@@ -1,0 +1,42 @@
+Random seed: 42
+Train/validation split strategy: separate 85/15 split within each training asset at shot/gather level.
+
+Split summary:
+           asset                 role  num_shots  num_labeled_traces  num_total_traces                                    notes
+ brunswick_train             training       1310             3174731           3817692                   85% of brunswick shots
+   brunswick_val         internal_val        231              558490            678848                   15% of brunswick shots
+  halfmile_train             training        586              844507            933609                    85% of halfmile shots
+    halfmile_val         internal_val        104              148673            165941                    15% of halfmile shots
+           lalor         external_val        905             1211857           2424923                           fully held out
+         sudbury          stress_test        715              200338           1810220     fully held out, unlabeled sentinel=0
+lalor_expB_train   domain_adapt_train        724              978491           1940293         80% Lalor shots for Experiment B
+  lalor_expB_val domain_adapt_holdout        181              233366            484628 20% Lalor shots holdout for Experiment B
+
+Evaluation assets:
+  asset        role  gather_count  trace_count
+  lalor    validate           905      1211857
+sudbury stress_test           715       200338
+
+Feature normalization stats:
+{
+  "split_random_seed": 42,
+  "coordinate_normalization": {
+    "source_x_mean": 413638.2167721519,
+    "source_x_std": 192670.70545003237,
+    "source_y_mean": 5252521.314345991,
+    "source_y_std": 5511.22845787169,
+    "computed_from_training_shots_only": true,
+    "training_assets_used": [
+      "brunswick",
+      "halfmile"
+    ]
+  },
+  "label_column": "SPARE1",
+  "normalization_method": "per_trace",
+  "trace_harmonization_strategy": "downsample_lalor_to_2ms_then_pad_or_crop_at_runtime",
+  "notes": [
+    "Stats are computed from Brunswick + Halfmile training shots only.",
+    "Use these same stats for Lalor validation and Sudbury stress-test inference.",
+    "Dead traces should remain zero vectors with a dead-trace flag; no imputation is applied."
+  ]
+}
